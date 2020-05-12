@@ -22,5 +22,3 @@ print_r($str);
 echo '<br /><br />';
 
 mySubstr_Raplace($str);
-
-// hello
