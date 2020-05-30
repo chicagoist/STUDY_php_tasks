@@ -6,7 +6,7 @@
   ключами 'floor' и 'ceil'.
  */
 
-function myArrayOfFllorAndCeil(int $param): array {
+function myArrayOfFloorAndCeil(int $param): array {
 
     $arr = ['floor' => [], 'ceil' => []];
 
@@ -30,6 +30,6 @@ function myArrayOfFllorAndCeil(int $param): array {
 
 $int = 587;
 
-myArrayOfFllorAndCeil($int);
+myArrayOfFloorAndCeil($int);
 
 
