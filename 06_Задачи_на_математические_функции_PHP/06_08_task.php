@@ -4,7 +4,7 @@
   Даны числа 4, -2, 5, 19, -130, 0, 10. Найдите минимальное и максимальное число.
  */
 
-function myMaxMin( $param ) {
+function myMaxMin($param) {
 
     $a = func_get_args();
 
