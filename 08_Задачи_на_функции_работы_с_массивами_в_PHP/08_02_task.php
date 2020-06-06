@@ -1,18 +1,25 @@
 <?php
 
-/* 
- Дан массив с числами. Проверьте, что в нем есть элемент со значением 3. 
+/*
+  Дан массив $arr. С помощью функции count выведите последний элемент данного
+ * массива. 
  */
 
-$arr = [];
+function myLastElementOfArray() {
 
-for ($i = 1; $i < rand(5, 50); $i++) {
 
-    $arr[] = $i;
-}
+    $arr = [];
 
-echo'<pre>';
+    for ($i = 1; $i < rand(5, 50); $i++) {
+
+        $arr[] = $i;
+    }
+
+    echo'<pre>';
     print_r($arr);
     echo '</pre><br /><br />';
 
-    var_dump(in_array(3, $arr));
+    echo 'Последний элемент массива = ' . $arr[count($arr) - 1];
+}
+
+myLastElementOfArray();
