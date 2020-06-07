@@ -11,5 +11,7 @@ echo'<pre>';
 print_r($arr);
 echo '</pre><br /><br />';
 
-echo 'array_rand = ';
+echo 'array_rand ';
+echo '<pre>';
 print_r(array_rand($arr, 3));
+echo '</pre>';
