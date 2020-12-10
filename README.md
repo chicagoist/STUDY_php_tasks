@@ -5,5 +5,6 @@
 после изучения C AINSI. С ходом изучения программирования в стиле PHP,
 буду использовать подход PHP.
 Использовал Netbeans 11, Ubuntu 18.04, ThinkPad X60t.
+...продолжаю.
 
 http://old.code.mu/tasks/php/
